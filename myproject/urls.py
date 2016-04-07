@@ -8,7 +8,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'ejercicios.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^CMS/nuevo/(.*)/(.*)', 'CMS.views.nuevo'),
-    url(r'^CMS/show/$', 'CMS.views.show'),
+    url(r'^cms/nuevo/(.*)/(.*)', 'cms.views.nuevo'),
+    url(r'^cms/show/$', 'cms.views.show'),
     url(r'^admin/', include(admin.site.urls)),
 )
